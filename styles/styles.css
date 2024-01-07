@@ -1,0 +1,35 @@
+/* common styles */
+
+body{
+  font-family: 'Merriweather', serif;
+}
+
+/* header related styles */
+
+header{
+  background-image: url('../images/Banner\ Image.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.bannar-contant{
+  text-align: center;
+}
+
+.title-1{
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 180px;
+}
+
+.title-2{
+  color: #FFF;
+  font-size: 72px;
+  margin-top: 10px;
+  font-weight: 900;
+  line-height: 95px;
+}
