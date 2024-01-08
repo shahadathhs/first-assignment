@@ -116,3 +116,35 @@ header{
   text-transform: uppercase;
   margin-bottom: 100px;
 }
+
+/* location section related styles */
+
+.location{
+  margin-top: 150px;
+  background-color: rgb(245, 166, 19, .2);
+  text-align: center;
+  font-family: Inter;
+}
+
+.location-description{
+  color: #070211;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 26px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.Location-title{
+  color: #F00;
+}
+
+.location-btn{
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #F00;
+  padding: 15px;
+  border: 0;
+  border-radius: 5px;
+}
