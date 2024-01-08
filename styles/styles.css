@@ -334,6 +334,7 @@ header{
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
+  margin-right: -5px;
 }
 
 #subscribe-btn{
