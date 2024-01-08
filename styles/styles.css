@@ -71,14 +71,11 @@ header{
 /* midnight party section related styles */
 
 .midnight-section{
-  background-image: url('../images/Vectorrr.png');
+  background-image: url('../images/Group\ 70.png'), url('../images/Vectorrr.png');
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  margin-top: 150px; 
-  width: 100%;
-  height: 100vh;
-}
+  background-position: center left 90%, center;
+  margin-top: 150px;
+} 
 
 .midnight-party{
   padding: 140px;
@@ -101,10 +98,11 @@ header{
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+  max-width: 600px;
 }
 
 .party-button{
-  background-color: black;
+  background-color: rgb(10, 2, 2, 0);
   color: #FFF;
   border: 0;
   border-radius: 10px;
@@ -251,6 +249,12 @@ header{
   line-height: 32px;
 }
 
+.discount-image{
+  background-image: url('../images/Group\ 44.png'), url('../images/Rectangle\ 1.png'), url('../images/Rectangle\ 2.png');
+  background-repeat: no-repeat;
+  background-position: left 75% bottom 75%, top right,bottom right;
+}
+
 /* portfolio section related styles */
 
 .portfolio{
@@ -302,6 +306,7 @@ header{
   background: rgba(255, 0, 0, 0.05);
   padding: 100px;
   text-align: center;
+  margin: 100px;
 }
 
 .subscribe-header{
@@ -341,4 +346,47 @@ header{
   background: #F00;
   padding: 19px;
   margin-left: 0;
+}
+
+/* footer related styles */
+footer{
+  background: #070211;
+  padding: 100px;
+  color: #FFF;
+}
+
+.contact-address,
+.copyright-div{
+  display: flex;
+  justify-content: space-between; 
+}
+
+.address,
+.copyright,
+.contact{
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  padding-bottom: 20px;
+}
+
+.icon-links{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.icon-img{
+  padding: 10px;
+}
+
+.Unsubscribe-btn{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  background-color: #070211;
+  border: 0;
+  padding: 20px;
 }
