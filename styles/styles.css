@@ -214,3 +214,131 @@ header{
   font-weight: 400;
   line-height: 32px;
 }
+
+/* holiday 50% section related styles */
+
+.holiday-sale{
+  text-align: center;
+  padding: 150px;
+}
+
+.functional{
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.holi{
+  color: #F00;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.sale{
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.holiday-des{
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+/* portfolio section related styles */
+
+.portfolio{
+  padding: 100px;
+}
+
+.portfolio-description{
+  text-align: left;
+  max-width: 800px;
+}
+
+.portfolio-heading{
+  color: #F00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.portfolio-title{
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.portfolio-para{
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.image-row{
+  display: flex;
+}
+
+.portfolio-image{
+  padding: 5px;
+}
+
+.portfolio-image:hover{
+  opacity: .8;
+}
+
+/* subscribe section related styles */
+.subscribe{
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 100px;
+  text-align: center;
+}
+
+.subscribe-header{
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.subscribe-description{
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+#email{
+  margin-right: 0;
+  border: 0;
+  border-radius:  50px 0px 0px 50px;
+  background: #FFF;
+  padding: 20px;
+  color: rgba(7, 2, 17, 0.30);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#subscribe-btn{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 0px 50px 50px 0px;
+  background: #F00;
+  padding: 19px;
+  margin-left: 0;
+}
