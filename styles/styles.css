@@ -1,8 +1,5 @@
 /* common styles */
 
-body{
-  font-family: 'Merriweather', serif;
-}
 
 /* header related styles */
 
@@ -11,6 +8,7 @@ header{
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  font-family: Merriweather;
   width: 100%;
   height: 100vh;
 }
@@ -32,4 +30,89 @@ header{
   margin-top: 10px;
   font-weight: 900;
   line-height: 95px;
+}
+
+/* discount section related styles */
+
+.discount-contant{
+  margin-top: 100px;
+  margin-left: 250px;
+  margin-right: 250px;
+  text-align: center;
+  font-family: Inter;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.off{
+  color: #F00;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.holiday{
+  color: #F00;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.all{
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+/* midnight party section related styles */
+
+.midnight-section{
+  background-image: url('../images/Vectorrr.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 150px; 
+  width: 100%;
+  height: 100vh;
+}
+
+.midnight-party{
+  padding: 140px;
+  text-align: left;
+}
+
+.party-heading{
+  color: #FFF;
+  font-size: 64px;
+  font-weight: 900;
+  font-family: Merriweather;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  margin-bottom: 0;
+}
+
+.party-description{
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.party-button{
+  background-color: black;
+  color: #FFF;
+  border: 0;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 100px;
 }
